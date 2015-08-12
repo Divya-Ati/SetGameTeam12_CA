@@ -1,0 +1,69 @@
+body {
+     
+    margin-top: 0px; /* 50px is the height of the navbar - change this if the navbarn height changes */
+}
+.col-lg-4{
+  position: relative;
+  min-height: 1px;
+  padding-right: 7px;
+  padding-left: 7px;
+}
+.form-control
+{
+    height: 28px;
+    font-size: 12px;
+}
+
+.portfolio-item {
+	margin-bottom: 25px;
+}
+
+footer {
+	margin: 50px 0;
+}
+
+
+.brand,
+.address-bar {
+  display: none;
+}
+
+
+
+.brand {
+  display: inherit;
+  font-weight: 700;
+  font-size: 5em;
+  line-height: normal;
+  text-align: center;
+  margin: 0;
+  padding: 40px 0 10px;
+  color: #fff;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  
+}
+
+
+.address-bar {
+  display: inherit;
+  text-align: center;
+  margin: 0;
+  padding: 0 0 70px;
+  font-size: 1.25em;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-weight: 400;
+  color: #fff;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.webHead
+{
+    
+    background: url(../images/bg10.jpg) fixed; 
+}
+
+#removeAll,#checkOut
+{
+    margin: 10px 0px 10px 10px;
+}

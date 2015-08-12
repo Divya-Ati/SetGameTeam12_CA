@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link rel="stylesheet" href="libs/jquery.mobile-1.4.5.css">
+        <script src="libs/jquery-2.1.4.js"></script>
+        <script src="libs/jquery.mobile-1.4.5.js"></script>
+        <link rel="stylesheet" href="testing.css">
+        <script src="testing.js"></script>
+    </head>
+    <body>
+       
+
+
+        <div id="creategame" data-role="page" >
+        <div data-role="header">
+            <h1>Set Game</h1>
+
+        </div>
+
+      <div role="main" class="ui-content">
+      <center>
+      <h2 class="mc-text-center">Welcome!</h2>
+
+            <form method="post" action="creategameServlet">
+                     
+                        <div class="ui-field-contain">
+                        <div>
+                <label for="accName">Group name</label>
+                <input type="text" name="groupname" id="accName">
+            </div>
+                    <button type="submit" class="ui-btn ui-btn-b ui-corner-all">Create Game</button>
+                    </div>   
+            </form> 
+      
+       
+      </center>
+  </div> 
+  <div data-role="footer" data-position="fixed">
+    <h4>This is footer</h4>
+</div>
+</div>
+    </body>
+</html>

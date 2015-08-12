@@ -1,0 +1,52 @@
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="libs/handlebars-v3.0.3.js"></script>
+        <link rel="stylesheet" href="libs/jquery.mobile-1.4.5.css">
+        <script src="libs/jquery-2.1.4.js"></script>
+        <script src="libs/jquery.mobile-1.4.5.js"></script>
+        <script id="grouplistItemTemplate" type="text/x-handlebars">
+            <li data-blog="{{url}}">
+      <a data-group="{{ url }}">
+    <h2>{{ gameID }}</h2>  
+    <h2>{{ url }}</h2> 
+    <p><i> Group Createdby:{{ userID }}</i><i>
+    </a>
+    </li>
+        </script>
+
+        <script src="gamelist.js"></script>
+    </head>
+    <body>
+        <div data-role="page" id="first">
+            <div data-role="header">
+                <h1>Participating Groups</h1>
+            </div>
+        <div data-role="main" class="ui-content">
+            <ul id="game-list" data-role="listview"></ul>
+        </div>
+            <div data-role="page" id="second">
+              <div data-role="header">  
+                  <h1><span id="group-details"></span>            
+              </div>
+                
+                  <div data-role="main" class="ui-content">
+                      <form>
+                          <label for="createdby">Group Owner</label>
+                          <input type="text" id="createdby" value="">
+                      
+                      
+                      </form>
+        </div>
+                
+                
+            </div>
+            
+            
+            
+            
+        </div>
+    </body>
+</html>

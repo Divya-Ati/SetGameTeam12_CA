@@ -1,0 +1,33 @@
+.ui-btn{
+	width: 300px !important;
+}
+
+.ui-input-text { 
+	width: 300px !important 
+}
+body{
+    background-image: url(img/backgroundblack.jpg) !important
+       
+}
+.thumbnail{
+    background-color: transparent;
+    border: 0px;
+}
+
+input[type="radio"], input[type="checkbox"]{
+    margin-left: 42px;
+}
+.img-responsive{
+    border-radius: 10px;
+}
+#table>tbody>tr>td>input {
+    width: 100px;
+     height: 80px; 
+    vertical-align: middle;
+    margin: 20px;
+    border-radius: 10px;
+}
+.container text-center{
+    
+}
+/*, button, select, textarea*/

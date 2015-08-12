@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TODO supply a title</title>
+       
+<!--        <link rel="stylesheet" href="testing.css">-->
+        <script src="testing.js"></script>
+    </head>
+    <body>
+       
+
+
+        <div id="creategame" data-role="page" >
+        <div data-role="header">
+            <h1>Set Game</h1>
+
+        </div>
+
+      <div role="main" class="ui-content">
+      <center>
+      <h2 class="mc-text-center">Welcome!</h2>
+
+            <form method="get" action="creategameServlet">
+                     
+                <div class="ui-field-contain">
+                    <div>
+                        <label for="accName">Group name</label>
+                        <input type="text" name="groupname" id="accName">
+                    </div>
+                    <button type="submit">Create Game</button>
+                </div>   
+            </form> 
+      
+       
+      </center>
+  </div> 
+  <div data-role="footer" data-position="fixed">
+    <h4>This is footer</h4>
+</div>
+</div>
+    </body>
+</html>
